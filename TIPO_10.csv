@@ -1,0 +1,11 @@
+TIPO;Cases;Controls;Freq;Description;Chapter
+TIPO36504;15;4973;0.00301628795495677;Ocular hypertension;Diseases Of The Nervous System And Sense Organs
+TIPOC50;15;4973;0.00301628795495677;Breast cancer;Neoplasms
+TIPO5569;16;4972;0.00321802091713596;Ulcerative colitis, unspecified;Diseases Of The Digestive System
+TIPO43491;17;4971;0.00341983504325086;Cerebral artery occlusion, unspecified with cerebral infarction;Diseases Of The Circulatory System
+TIPO3659;26;4962;0.00523982265215639;Unspecified glaucoma;Diseases Of The Nervous System And Sense Organs
+TIPOC44;27;4961;0.00544245111872606;Skin cancer;Neoplasms
+TIPO2749;31;4957;0.0062537825297559;Gout, unspecified;Endocrine, Nutritional And Metabolic Diseases, And Immunity Disorders
+TIPO6961;191;4797;0.039816552011674;Other psoriasis;Diseases Of The Skin And Subcutaneous Tissue
+GROUP272;987;4001;0.246688327918021;Pure hypercholesterolemia. Acute gouty arthropathy;Endocrine, Nutritional And Metabolic Diseases, And Immunity Disorders
+;;;;;
