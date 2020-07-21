@@ -1,0 +1,713 @@
+TIPO;minor_desc;casos;controls;freq
+;;;;
+1190;Pulmonary tuberculosis, unspecified, unspecified;13;4975;0,002613065
+;;;;
+1730;Tuberculosis of eye, unspecified;1;4987;0,000200521
+;;;;
+239;Brucellosis, unspecified;1;4987;0,000200521
+;;;;
+339;Whooping cough, unspecified organism;1;4987;0,000200521
+;;;;
+4186;Helicobacter pylori [H. pylori];178;4810;0,037006237
+;;;;
+42;Human immunodeficiency virus [HIV] disease;1;4987;0,000200521
+;;;;
+4590;Acute poliomyelitis, unspecified, poliovirus, unspecified type;1;4987;0,000200521
+;;;;
+529;Varicella without mention of complication;2;4986;0,000401123
+;;;;
+540;Eczema herpeticum;1;4987;0,000200521
+;;;;
+701;Viral hepatitis A without mention of hepatic coma;2;4986;0,000401123
+;;;;
+729;Mumps without mention of complication;1;4987;0,000200521
+;;;;
+75;Infectious mononucleosis;2;4986;0,000401123
+;;;;
+7811;Condyloma acuminatum;1;4987;0,000200521
+;;;;
+785;Cytomegaloviral disease;1;4987;0,000200521
+;;;;
+794;Human papillomavirus in conditions classified elsewhere and of unspecified site;3;4985;0,000601805
+;;;;
+819;Typhus, unspecified;1;4987;0,000200521
+;;;;
+1121;Candidiasis of vulva and vagina;1;4987;0,000200521
+;;;;
+11285;Candidal enteritis;1;4987;0,000200521
+;;;;
+1129;Candidiasis of unspecified site;1;4987;0,000200521
+;;;;
+118;Opportunistic mycoses;4;4984;0,000802568
+;;;;
+135;Sarcoidosis;1;4987;0,000200521
+;;;;
+1361;Behcet's syndrome;1;4987;0,000200521
+;;;;
+2149;Lipoma, unspecified site;1;4987;0,000200521
+;;;;
+2189;Leiomyoma of uterus, unspecified;1;4987;0,000200521
+;;;;
+23770;Neurofibromatosis, unspecified;1;4987;0,000200521
+;;;;
+2380;Neoplasm of uncertain behavior of bone and articular cartilage;1;4987;0,000200521
+;;;;
+2410;Nontoxic uninodular goiter;1;4987;0,000200521
+;;;;
+2411;Nontoxic multinodular goiter;1;4987;0,000200521
+;;;;
+24200;Toxic diffuse goiter without mention of thyrotoxic crisis or storm;1;4987;0,000200521
+;;;;
+24290;Thyrotoxicosis without mention of goiter or other cause, and without mention of thyrotoxic crisis or storm;14;4974;0,002814636
+;;;;
+2440;Postsurgical hypothyroidism;3;4985;0,000601805
+;;;;
+2449;Unspecified acquired hypothyroidism;119;4869;0,024440337
+;;;;
+2451;Subacute thyroiditis;1;4987;0,000200521
+;;;;
+2452;Chronic lymphocytic thyroiditis;3;4985;0,000601805
+;;;;
+2459;Thyroiditis, unspecified;2;4986;0,000401123
+;;;;
+2469;Unspecified disorder of thyroid;75;4913;0,015265622
+;;;;
+25000;Diabetes mellitus without mention of complication, type II or unspecified type, not stated as uncontrolled;217;4771;0,045483127
+;;;;
+25200;Hyperparathyroidism, unspecified;1;4987;0,000200521
+;;;;
+25201;Primary hyperparathyroidism;1;4987;0,000200521
+;;;;
+2531;Other and unspecified anterior pituitary hyperfunction;1;4987;0,000200521
+;;;;
+25631;Premature menopause;2;4986;0,000401123
+;;;;
+2564;Polycystic ovaries;1;4987;0,000200521
+;;;;
+2662;Other B-complex deficiencies;3;4985;0,000601805
+;;;;
+2689;Unspecified vitamin D deficiency;8;4980;0,001606426
+;;;;
+2692;Unspecified vitamin deficiency;5;4983;0,001003412
+;;;;
+2720;Pure hypercholesterolemia;982;4006;0,245132302
+;;;;
+2721;Pure hyperglyceridemia;6;4982;0,001204336
+;;;;
+2724;Other and unspecified hyperlipidemia;1;4987;0,000200521
+;;;;
+27401;Acute gouty arthropathy;5;4983;0,001003412
+;;;;
+2749;Gout, unspecified;31;4957;0,006253783
+;;;;
+27501;Hereditary hemochromatosis;2;4986;0,000401123
+;;;;
+27503;Other hemochromatosis;1;4987;0,000200521
+;;;;
+27541;Hypocalcemia;10;4978;0,002008839
+;;;;
+27669;Other fluid overload;10;4978;0,002008839
+;;;;
+2768;Hypopotassemia;1;4987;0,000200521
+;;;;
+2774;Disorders of bilirubin excretion;1;4987;0,000200521
+;;;;
+27800;Obesity, unspecified;3;4985;0,000601805
+;;;;
+27802;Overweight;1;4987;0,000200521
+;;;;
+27904;Congenital hypogammaglobulinemia;1;4987;0,000200521
+;;;;
+2809;Iron deficiency anemia, unspecified;56;4932;0,01135442
+;;;;
+2812;Folate-deficiency anemia;2;4986;0,000401123
+;;;;
+28246;Thalassemia minor;3;4985;0,000601805
+;;;;
+2864;Von Willebrand's disease;1;4987;0,000200521
+;;;;
+28731;Immune thrombocytopenic purpura;1;4987;0,000200521
+;;;;
+2875;Thrombocytopenia, unspecified;1;4987;0,000200521
+;;;;
+28981;Primary hypercoagulable state;3;4985;0,000601805
+;;;;
+29590;Unspecified schizophrenia, unspecified;5;4983;0,001003412
+;;;;
+29600;Bipolar I disorder, single manic episode, unspecified;4;4984;0,000802568
+;;;;
+29690;Unspecified episodic mood disorder;1;4987;0,000200521
+;;;;
+2971;Delusional disorder;1;4987;0,000200521
+;;;;
+30000;Anxiety state, unspecified;125;4863;0,025704298
+;;;;
+30020;Phobia, unspecified;1;4987;0,000200521
+;;;;
+30023;Social phobia;1;4987;0,000200521
+;;;;
+3003;Obsessive-compulsive disorders;5;4983;0,001003412
+;;;;
+3004;Dysthymic disorder;22;4966;0,004430125
+;;;;
+30183;Borderline personality disorder;1;4987;0,000200521
+;;;;
+30275;Premature ejaculation;1;4987;0,000200521
+;;;;
+30390;Other and unspecified alcohol dependence, unspecified;3;4985;0,000601805
+;;;;
+30750;Eating disorder, unspecified;1;4987;0,000200521
+;;;;
+30751;Bulimia nervosa;1;4987;0,000200521
+;;;;
+30781;Tension headache;3;4985;0,000601805
+;;;;
+3080;Predominant disturbance of emotions;1;4987;0,000200521
+;;;;
+3089;Unspecified acute reaction to stress;8;4980;0,001606426
+;;;;
+3099;Unspecified adjustment reaction;2;4986;0,000401123
+;;;;
+311;Depressive disorder, not elsewhere classified;370;4618;0,080121265
+;;;;
+31234;Intermittent explosive disorder;1;4987;0,000200521
+;;;;
+3131;Misery and unhappiness disorder specific to childhood and adolescence;10;4978;0,002008839
+;;;;
+31400;Attention deficit disorder without mention of hyperactivity;2;4986;0,000401123
+;;;;
+31401;Attention deficit disorder with hyperactivity;6;4982;0,001204336
+;;;;
+3229;Meningitis, unspecified;2;4986;0,000401123
+;;;;
+3239;Unspecified causes of encephalitis, myelitis, and encephalomyelitis;2;4986;0,000401123
+;;;;
+3331;Essential and other specified forms of tremor;3;4985;0,000601805
+;;;;
+3334;Huntington's chorea;1;4987;0,000200521
+;;;;
+33379;Other acquired torsion dystonia;1;4987;0,000200521
+;;;;
+33394;Restless legs syndrome (RLS);4;4984;0,000802568
+;;;;
+33520;Amyotrophic lateral sclerosis;1;4987;0,000200521
+;;;;
+3369;Unspecified disease of spinal cord;1;4987;0,000200521
+;;;;
+33721;Reflex sympathetic dystrophy of the upper limb;1;4987;0,000200521
+;;;;
+33829;Other chronic pain;2;4986;0,000401123
+;;;;
+33900;Cluster headache syndrome, unspecified;1;4987;0,000200521
+;;;;
+340;Multiple sclerosis;2;4986;0,000401123
+;;;;
+3419;Demyelinating disease of central nervous system, unspecified;1;4987;0,000200521
+;;;;
+34590;Epilepsy, unspecified, without mention of intractable epilepsy;1;4987;0,000200521
+;;;;
+34690;Migraine, unspecified, without mention of intractable migraine without mention of status migrainosus;429;4559;0,094099583
+;;;;
+3501;Trigeminal neuralgia;2;4986;0,000401123
+;;;;
+3542;Lesion of ulnar nerve;1;4987;0,000200521
+;;;;
+3561;Peroneal muscular atrophy;1;4987;0,000200521
+;;;;
+3570;Acute infective polyneuritis;1;4987;0,000200521
+;;;;
+3572;Polyneuropathy in diabetes;1;4987;0,000200521
+;;;;
+3579;Unspecified inflammatory and toxic neuropathy;2;4986;0,000401123
+;;;;
+36130;Retinal defect, unspecified;1;4987;0,000200521
+;;;;
+36241;Central serous retinopathy;1;4987;0,000200521
+;;;;
+36252;Exudative senile macular degeneration;1;4987;0,000200521
+;;;;
+3638;Other disorders of choroid;1;4987;0,000200521
+;;;;
+36504;Ocular hypertension;15;4973;0,003016288
+;;;;
+3659;Unspecified glaucoma;26;4962;0,005239823
+;;;;
+3709;Unspecified keratitis;1;4987;0,000200521
+;;;;
+37205;Acute atopic conjunctivitis;1;4987;0,000200521
+;;;;
+37230;Conjunctivitis, unspecified;1;4987;0,000200521
+;;;;
+37253;Conjunctival xerosis;2;4986;0,000401123
+;;;;
+37924;Other vitreous opacities;1;4987;0,000200521
+;;;;
+3829;Unspecified otitis media;1;4987;0,000200521
+;;;;
+38530;Cholesteatoma, unspecified;1;4987;0,000200521
+;;;;
+38600;Mí©niíÂre's disease, unspecified;1;4987;0,000200521
+;;;;
+3879;Otosclerosis, unspecified;2;4986;0,000401123
+;;;;
+38830;Tinnitus, unspecified;1;4987;0,000200521
+;;;;
+3899;Unspecified hearing loss;3;4985;0,000601805
+;;;;
+4019;Unspecified essential hypertension;858;4130;0,207748184
+;;;;
+41090;Acute myocardial infarction of unspecified site, episode of care unspecified;13;4975;0,002613065
+;;;;
+4139;Other and unspecified angina pectoris;12;4976;0,002411576
+;;;;
+41519;Other pulmonary embolism and infarction;1;4987;0,000200521
+;;;;
+42090;Acute pericarditis, unspecified;4;4984;0,000802568
+;;;;
+4240;Mitral valve disorders;1;4987;0,000200521
+;;;;
+42518;Other hypertrophic cardiomyopathy;2;4986;0,000401123
+;;;;
+4267;Anomalous atrioventricular excitation;1;4987;0,000200521
+;;;;
+42732;Atrial flutter;1;4987;0,000200521
+;;;;
+42760;Premature beats, unspecified;1;4987;0,000200521
+;;;;
+42761;Supraventricular premature beats;2;4986;0,000401123
+;;;;
+4279;Cardiac dysrhythmia, unspecified;8;4980;0,001606426
+;;;;
+4299;Heart disease, unspecified;2;4986;0,000401123
+;;;;
+43491;Cerebral artery occlusion, unspecified with cerebral infarction;17;4971;0,003419835
+;;;;
+4373;Cerebral aneurysm, nonruptured;1;4987;0,000200521
+;;;;
+4401;Atherosclerosis of renal artery;1;4987;0,000200521
+;;;;
+4519;Phlebitis and thrombophlebitis of unspecified site;1;4987;0,000200521
+;;;;
+4539;Other venous embolism and thrombosis of unspecified site;2;4986;0,000401123
+;;;;
+4549;Asymptomatic varicose veins;7;4981;0,00140534
+;;;;
+4556;Unspecified hemorrhoids without mention of complication;3;4985;0,000601805
+;;;;
+4564;Scrotal varices;1;4987;0,000200521
+;;;;
+4589;Hypotension, unspecified;1;4987;0,000200521
+;;;;
+45981;Venous (peripheral) insufficiency, unspecified;1;4987;0,000200521
+;;;;
+4599;Unspecified circulatory system disorder;9;4979;0,001807592
+;;;;
+460;Acute nasopharyngitis [common cold];13;4975;0,002613065
+;;;;
+462;Acute pharyngitis;1;4987;0,000200521
+;;;;
+463;Acute tonsillitis;2;4986;0,000401123
+;;;;
+4719;Unspecified nasal polyp;5;4983;0,001003412
+;;;;
+4720;Chronic rhinitis;380;4608;0,082465278
+;;;;
+4739;Unspecified sinusitis (chronic);2;4986;0,000401123
+;;;;
+4770;Allergic rhinitis due to pollen;1;4987;0,000200521
+;;;;
+4772;Allergic rhinitis due to animal (cat) (dog) hair and dander;1;4987;0,000200521
+;;;;
+47819;Other disease of nasal cavity and sinuses;2;4986;0,000401123
+;;;;
+4786;Edema of larynx;1;4987;0,000200521
+;;;;
+486;Pneumonia, organism unspecified;5;4983;0,001003412
+;;;;
+4871;Influenza with other respiratory manifestations;2;4986;0,000401123
+;;;;
+490;Bronchitis, not specified as acute or chronic;5;4983;0,001003412
+;;;;
+4919;Unspecified chronic bronchitis;1;4987;0,000200521
+;;;;
+49390;Asthma, unspecified type, unspecified;267;4721;0,056555814
+;;;;
+496;Chronic airway obstruction, not elsewhere classified;22;4966;0,004430125
+;;;;
+5110;Pleurisy without mention of effusion or current tuberculosis;1;4987;0,000200521
+;;;;
+52340;Chronic periodontitis, unspecified;1;4987;0,000200521
+;;;;
+5259;Unspecified disorder of the teeth and supporting structures;3;4985;0,000601805
+;;;;
+5282;Oral aphthae;1;4987;0,000200521
+;;;;
+5296;Glossodynia;1;4987;0,000200521
+;;;;
+53010;Esophagitis, unspecified;5;4983;0,001003412
+;;;;
+53011;Reflux esophagitis;1;4987;0,000200521
+;;;;
+53081;Esophageal reflux;17;4971;0,003419835
+;;;;
+53190;Gastric ulcer, unspecified as acute or chronic, without mention of hemorrhage or perforation, without mention of obstruction;3;4985;0,000601805
+;;;;
+53510;Atrophic gastritis, without mention of hemorrhage;4;4984;0,000802568
+;;;;
+53550;Unspecified gastritis and gastroduodenitis, without mention of hemorrhage;5;4983;0,001003412
+;;;;
+5363;Gastroparesis;1;4987;0,000200521
+;;;;
+5368;Dyspepsia and other specified disorders of function of stomach;2;4986;0,000401123
+;;;;
+5369;Unspecified functional disorder of stomach;5;4983;0,001003412
+;;;;
+5379;Unspecified disorder of stomach and duodenum;66;4922;0,013409183
+;;;;
+5409;Acute appendicitis without mention of peritonitis;1;4987;0,000200521
+;;;;
+5531;Umbilical hernia without mention of obstruction or gangrene;1;4987;0,000200521
+;;;;
+5533;Diaphragmatic hernia without mention of obstruction or gangrene;62;4926;0,012586277
+;;;;
+5539;Hernia of unspecified site without mention of obstruction or gangrene;1;4987;0,000200521
+;;;;
+5559;Regional enteritis of unspecified site;3;4985;0,000601805
+;;;;
+5569;Ulcerative colitis, unspecified;16;4972;0,003218021
+;;;;
+56400;Constipation, unspecified;6;4982;0,001204336
+;;;;
+5641;Irritable bowel syndrome;6;4982;0,001204336
+;;;;
+5647;Megacolon, other than Hirschsprung's;1;4987;0,000200521
+;;;;
+5679;Unspecified peritonitis;1;4987;0,000200521
+;;;;
+5690;Anal and rectal polyp;146;4842;0,030152829
+;;;;
+56984;Angiodysplasia of intestine (without mention of hemorrhage);1;4987;0,000200521
+;;;;
+5699;Unspecified disorder of intestine;1;4987;0,000200521
+;;;;
+57140;Chronic hepatitis, unspecified;8;4980;0,001606426
+;;;;
+5718;Other chronic nonalcoholic liver disease;4;4984;0,000802568
+;;;;
+5733;Hepatitis, unspecified;3;4985;0,000601805
+;;;;
+5739;Unspecified disorder of liver;1;4987;0,000200521
+;;;;
+57420;Calculus of gallbladder without mention of cholecystitis, without mention of obstruction;4;4984;0,000802568
+;;;;
+57450;Calculus of bile duct without mention of cholecystitis, without mention of obstruction;1;4987;0,000200521
+;;;;
+5752;Obstruction of gallbladder;1;4987;0,000200521
+;;;;
+5759;Unspecified disorder of gallbladder;4;4984;0,000802568
+;;;;
+5770;Acute pancreatitis;3;4985;0,000601805
+;;;;
+5779;Unspecified disease of pancreas;1;4987;0,000200521
+;;;;
+5790;Celiac disease;6;4982;0,001204336
+;;;;
+59080;Pyelonephritis, unspecified;1;4987;0,000200521
+;;;;
+5920;Calculus of kidney;5;4983;0,001003412
+;;;;
+5939;Unspecified disorder of kidney and ureter;4;4984;0,000802568
+;;;;
+5959;Cystitis, unspecified;6;4982;0,001204336
+;;;;
+59651;Hypertonicity of bladder;2;4986;0,000401123
+;;;;
+5989;Urethral stricture, unspecified;1;4987;0,000200521
+;;;;
+59972;Microscopic hematuria;1;4987;0,000200521
+;;;;
+60000;Hypertrophy (benign) of prostate without urinary obstruction and other lower urinary tract symptom (LUTS);9;4979;0,001807592
+;;;;
+60090;Hyperplasia of prostate, unspecified, without urinary obstruction and other lower urinary symptoms (LUTS);3;4985;0,000601805
+;;;;
+6011;Chronic prostatitis;1;4987;0,000200521
+;;;;
+6019;Prostatitis, unspecified;5;4983;0,001003412
+;;;;
+6029;Unspecified disorder of prostate;34;4954;0,006863141
+;;;;
+60784;Impotence of organic origin;1;4987;0,000200521
+;;;;
+60883;Vascular disorders of male genital organs;1;4987;0,000200521
+;;;;
+6179;Endometriosis, site unspecified;5;4983;0,001003412
+;;;;
+61804;Rectocele;1;4987;0,000200521
+;;;;
+6210;Polyp of corpus uteri;3;4985;0,000601805
+;;;;
+6253;Dysmenorrhea;6;4982;0,001204336
+;;;;
+6262;Excessive or frequent menstruation;1;4987;0,000200521
+;;;;
+6264;Irregular menstrual cycle;6;4982;0,001204336
+;;;;
+6269;Unspecified disorders of menstruation and other abnormal bleeding from female genital tract;5;4983;0,001003412
+;;;;
+6272;Symptomatic menopausal or female climacteric states;4;4984;0,000802568
+;;;;
+6273;Postmenopausal atrophic vaginitis;1;4987;0,000200521
+;;;;
+6279;Unspecified menopausal and postmenopausal disorder;17;4971;0,003419835
+;;;;
+64880;Abnormal glucose tolerance of mother, unspecified as to episode of care or not applicable;1;4987;0,000200521
+;;;;
+6851;Pilonidal cyst without mention of abscess;1;4987;0,000200521
+;;;;
+69018;Other seborrheic dermatitis;1;4987;0,000200521
+;;;;
+6918;Other atopic dermatitis and related conditions;1;4987;0,000200521
+;;;;
+69272;Acute dermatitis due to solar radiation;1;4987;0,000200521
+;;;;
+6929;Contact dermatitis and other eczema, unspecified cause;222;4766;0,046579941
+;;;;
+6952;Erythema nodosum;1;4987;0,000200521
+;;;;
+6953;Rosacea;2;4986;0,000401123
+;;;;
+6961;Other psoriasis;191;4797;0,039816552
+;;;;
+6983;Lichenification and lichen simplex chronicus;1;4987;0,000200521
+;;;;
+6989;Unspecified pruritic disorder;1;4987;0,000200521
+;;;;
+7020;Actinic keratosis;1;4987;0,000200521
+;;;;
+70400;Alopecia, unspecified;6;4982;0,001204336
+;;;;
+70401;Alopecia areata;3;4985;0,000601805
+;;;;
+7049;Unspecified disease of hair and hair follicles;1;4987;0,000200521
+;;;;
+7061;Other acne;2;4986;0,000401123
+;;;;
+7082;Urticaria due to cold and heat;1;4987;0,000200521
+;;;;
+7088;Other specified urticaria;1;4987;0,000200521
+;;;;
+7089;Urticaria, unspecified;2;4986;0,000401123
+;;;;
+70901;Vitiligo;3;4985;0,000601805
+;;;;
+7100;Systemic lupus erythematosus;4;4984;0,000802568
+;;;;
+71230;Chondrocalcinosis, unspecified, site unspecified;1;4987;0,000200521
+;;;;
+7140;Rheumatoid arthritis;2;4986;0,000401123
+;;;;
+71500;Osteoarthrosis, generalized, site unspecified;5;4983;0,001003412
+;;;;
+71516;Osteoarthrosis, localized, primary, lower leg;6;4982;0,001204336
+;;;;
+71589;Osteoarthrosis involving, or with mention of more than one site, but not specified as generalized, multiple sites;1;4987;0,000200521
+;;;;
+71590;Osteoarthrosis, unspecified whether generalized or localized, site unspecified;57;4931;0,011559521
+;;;;
+71690;Arthropathy, unspecified, site unspecified;145;4843;0,02994012
+;;;;
+71691;Arthropathy, unspecified, shoulder region;1;4987;0,000200521
+;;;;
+7177;Chondromalacia of patella;3;4985;0,000601805
+;;;;
+71940;Pain in joint, site unspecified;11;4977;0,002210167
+;;;;
+71941;Pain in joint, shoulder region;1;4987;0,000200521
+;;;;
+71945;Pain in joint, pelvic region and thigh;1;4987;0,000200521
+;;;;
+71946;Pain in joint, lower leg;9;4979;0,001807592
+;;;;
+71990;Unspecified disorder of joint, site unspecified;2;4986;0,000401123
+;;;;
+7200;Ankylosing spondylitis;3;4985;0,000601805
+;;;;
+7209;Unspecified inflammatory spondylopathy;1;4987;0,000200521
+;;;;
+72190;Spondylosis of unspecified site, without mention of myelopathy;2;4986;0,000401123
+;;;;
+7222;Displacement of intervertebral disc, site unspecified, without myelopathy;34;4954;0,006863141
+;;;;
+7226;Degeneration of intervertebral disc, site unspecified;2;4986;0,000401123
+;;;;
+7231;Cervicalgia;4;4984;0,000802568
+;;;;
+7239;Unspecified musculoskeletal disorders and symptoms referable to neck;4;4984;0,000802568
+;;;;
+7242;Lumbago;19;4969;0,003823707
+;;;;
+7243;Sciatica;10;4978;0,002008839
+;;;;
+7245;Backache, unspecified;15;4973;0,003016288
+;;;;
+7249;Other unspecified back disorders;4;4984;0,000802568
+;;;;
+72611;Calcifying tendinitis of shoulder;2;4986;0,000401123
+;;;;
+7265;Enthesopathy of hip region;1;4987;0,000200521
+;;;;
+72690;Enthesopathy of unspecified site;6;4982;0,001204336
+;;;;
+72702;Giant cell tumor of tendon sheath;1;4987;0,000200521
+;;;;
+72740;Synovial cyst, unspecified;1;4987;0,000200521
+;;;;
+7282;Muscular wasting and disuse atrophy, not elsewhere classified;1;4987;0,000200521
+;;;;
+72871;Plantar fascial fibromatosis;1;4987;0,000200521
+;;;;
+72885;Spasm of muscle;11;4977;0,002210167
+;;;;
+7290;Rheumatism, unspecified and fibrositis;2;4986;0,000401123
+;;;;
+7291;Myalgia and myositis, unspecified;61;4927;0,012380759
+;;;;
+73300;Osteoporosis, unspecified;156;4832;0,032284768
+;;;;
+73390;Disorder of bone and cartilage, unspecified;18;4970;0,00362173
+;;;;
+73399;Other disorders of bone and cartilage;1;4987;0,000200521
+;;;;
+73720;Lordosis (acquired) (postural);1;4987;0,000200521
+;;;;
+73730;Scoliosis [and kyphoscoliosis], idiopathic;1;4987;0,000200521
+;;;;
+74100;Spina bifida with hydrocephalus, unspecified region;1;4987;0,000200521
+;;;;
+7455;Ostium secundum type atrial septal defect;1;4987;0,000200521
+;;;;
+74689;Other specified congenital anomalies of heart;1;4987;0,000200521
+;;;;
+74781;Anomalies of cerebrovascular system;1;4987;0,000200521
+;;;;
+7515;Other anomalies of intestine;1;4987;0,000200521
+;;;;
+75310;Cystic kidney disease, unspecified;2;4986;0,000401123
+;;;;
+75312;Polycystic kidney, unspecified type;2;4986;0,000401123
+;;;;
+7596;Other hamartoses, not elsewhere classified;1;4987;0,000200521
+;;;;
+76071;Alcohol affecting fetus or newborn via placenta or breast milk;1;4987;0,000200521
+;;;;
+7804;Dizziness and giddiness;7;4981;0,00140534
+;;;;
+78050;Sleep disturbance, unspecified;6;4982;0,001204336
+;;;;
+78052;Insomnia, unspecified;109;4879;0,022340644
+;;;;
+78054;Hypersomnia, unspecified;1;4987;0,000200521
+;;;;
+78057;Unspecified sleep apnea;6;4982;0,001204336
+;;;;
+78071;Chronic fatigue syndrome;11;4977;0,002210167
+;;;;
+78079;Other malaise and fatigue;9;4979;0,001807592
+;;;;
+78093;Memory loss;1;4987;0,000200521
+;;;;
+78096;Generalized pain;74;4914;0,015059015
+;;;;
+78099;Other general symptoms;1;4987;0,000200521
+;;;;
+7810;Abnormal involuntary movements;1;4987;0,000200521
+;;;;
+7821;Rash and other nonspecific skin eruption;1;4987;0,000200521
+;;;;
+7840;Headache;63;4925;0,012791878
+;;;;
+7850;Tachycardia, unspecified;7;4981;0,00140534
+;;;;
+7851;Palpitations;1;4987;0,000200521
+;;;;
+7852;Undiagnosed cardiac murmurs;1;4987;0,000200521
+;;;;
+78603;Apnea;3;4985;0,000601805
+;;;;
+7862;Cough;1;4987;0,000200521
+;;;;
+7871;Heartburn;20;4968;0,004025765
+;;;;
+78791;Diarrhea;1;4987;0,000200521
+;;;;
+7880;Renal colic;3;4985;0,000601805
+;;;;
+7881;Dysuria;2;4986;0,000401123
+;;;;
+78830;Urinary incontinence, unspecified;7;4981;0,00140534
+;;;;
+79029;Other abnormal glucose;6;4982;0,001204336
+;;;;
+79921;Nervousness;11;4977;0,002210167
+;;;;
+8290;Fracture of unspecified bone, closed;1;4987;0,000200521
+;;;;
+98984;Toxic effect of tobacco;3;4985;0,000601805
+;;;;
+9953;Allergy, unspecified, not elsewhere classified;775;4213;0,183954427
+;;;;
+C09-14;Malignant neoplasm of pharynx;1;4987;0,000200521
+;;;;
+C16;Malignant neoplasm of stomach;1;4987;0,000200521
+;;;;
+C17;Malignant neoplasm of small intestine;1;4987;0,000200521
+;;;;
+C18;Malignant neoplasm of colon;3;4985;0,000601805
+;;;;
+C19-21;Malignant neoplasm of rectosigmoid junction, rectum, anus and anal canal;3;4985;0,000601805
+;;;;
+C22;Malignant neoplasm of liver and intrahepatic bile ducts;1;4987;0,000200521
+;;;;
+C33-34;Malignant neoplasm of trachea, bronchus and lung;1;4987;0,000200521
+;;;;
+C40-41;Malignant neoplasm of bone and articular cartilage;2;4986;0,000401123
+;;;;
+C43;Malignant melanoma of skin;12;4976;0,002411576
+;;;;
+C44;Other and unspecified malignant neoplasm of skin;27;4961;0,005442451
+;;;;
+C47-49;Malignant neoplasm of peripheral nerves and connective and soft tissue;1;4987;0,000200521
+;;;;
+C50;Malignant neoplasm of breast;15;4973;0,003016288
+;;;;
+C51,52,55,57-59;Malignant neoplasm of vulva, vagina, uterus, placenta and other unsp female genital organs;3;4985;0,000601805
+;;;;
+C53;Malignant neoplasm of cervix uteri;2;4986;0,000401123
+;;;;
+C54;Malignant neoplasm of corpus uteri;7;4981;0,00140534
+;;;;
+C61;Malignant neoplasm of prostate;7;4981;0,00140534
+;;;;
+C64;Malignant neoplasm of kidney and other urinary organs;2;4986;0,000401123
+;;;;
+C67;Malignant neoplasm of bladder;4;4984;0,000802568
+;;;;
+C69;Malignant neoplasm of eye and adnexa;1;4987;0,000200521
+;;;;
+C73;Malignant neoplasm of thyroid gland;2;4986;0,000401123
+;;;;
+C82-85,C96;Non-Hodgkin lymphoma;3;4985;0,000601805
+;;;;
+C91-95;Leukemia;2;4986;0,000401123
+;;;;
+V259;Unspecified contraceptive management;18;4970;0,00362173
+;;;;
+V4586;Bariatric surgery status;3;4985;0,000601805
+;;;;
+V5861;Long-term (current) use of anticoagulants;1;4987;0,000200521
+;;;;
+V5863;Long-term (current) use of antiplatelet/antithrombotic;1;4987;0,000200521
+;;;;
+V8301;Asymptomatic hemophilia A carrier;1;4987;0,000200521
+;;;;
+NA;NA;189;4799;0,039383205

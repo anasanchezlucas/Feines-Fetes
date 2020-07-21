@@ -1,0 +1,56 @@
+TIPO;Cases;Controls;Freq;Description;Chapter
+TIPO41090;13;4975;0,002613065;Acute myocardial infarction of unspecified site, episode of care unspecified;Diseases of the circulatory System
+TIPO24290;14;4974;0.00281464;Thyrotoxicosis without mention of goiter or other cause, and without mention of thyrotoxic crisis or storm;Endocrine, Nutritional And Metabolic Diseases, And Immunity Disorders
+TIPO36504;15;4973;0.00301628795495677;Ocular hypertension;Diseases Of The Nervous System And Sense Organs
+TIPOC50;15;4973;0.00301628795495677;Breast cancer;Neoplasms
+TIPO5569;16;4972;0.00321802091713596;Ulcerative colitis, unspecified;Diseases Of The Digestive System
+TIPO43491;17;4971;0.00341983504325086;Cerebral artery occlusion, unspecified with cerebral infarction;Diseases Of The Circulatory System
+TIPO53081;17;4988;0.00340817963111468;Esophageal reflux;Diseases Of The Digestive System
+TIPO73390;18;4970;0.00362173038229376;Disorder of bone and cartilage, unspecified;Diseases Of The Musculoskeletal System And Connective Tissue
+GROUP73399;19;4969;0.00382370698329644;Disorders of bone and cartilage, unespecified;Diseases Of The Musculoskeletal System And Connective Tissue
+TIPO7871;20;4968;0.00402576489533011;Heartburn;Symptoms, Signs, And Ill Defined Conditions
+GROUP530;22;4966;0.00443012484897302;Reflux esophagitis, Esophagitis, unspecified, Esophageal reflux;Diseases Of The Digestive System
+TIPO3004;22;4966;0.00443012484897302;Dysthymic disorder;Mental Disorders
+TIPO496;22;4966;0.00443012484897302;Chronic airway obstruction, not elsewhere classified;Diseases Of The Respiratory System
+TIPO3659;26;4962;0.00523982265215639;Unspecified glaucoma;Diseases Of The Nervous System And Sense Organs
+TIPOC44;27;4961;0.00544245111872606;Skin cancer;Neoplasms
+TIPO2749;31;4957;0.0062537825297559;Gout, unspecified;Endocrine, Nutritional And Metabolic Diseases, And Immunity Disorders
+TIPO6029;34;4954;0.00686314089624546;Unspecified disorder of prostate;Diseases Of The Genitourinary System
+TIPO7222;34;4954;0.00686314089624546;Displacement of intervertebral disc, site unspecified, without myelopathy;Diseases Of The Musculoskeletal System And Connective Tissue
+GROUP274;36;4988;0.00721732157177225;Acute gouty arthropathy, gout;Endocrine, Nutritional And Metabolic Diseases, And Immunity Disorders
+GROUP722;36;4952;0.00726978998384491;Displacement of intervertebral disc, site unspecified, without myelopathy, Degeneration of intervertebral disc;Diseases Of The Musculoskeletal System And Connective Tissue
+GROUP365;41;4947;0.00828785122296341;Unspecified glaucoma, Ocular hypertension;Diseases Of The Nervous System And Sense Organs
+GROUP602;50;4938;0.0101255569056298;Unspecified disorder of prostate, Hypertrophy (benign) of prostate without urinary Unspecified disorder of prostate,  Prostatitis, Unspecified disorder of prostate,Chronic prostatitis;Diseases Of The Genitourinary System
+TIPO2809;56;4932;0.0113544201135442;Iron deficiency anemia, unspecified;Diseases Of The Blood And Blood Forming Organs
+TIPO71590;57;4931;0.0115595213952545;Osteoarthrosis, unspecified whether generalized or localized, site unspecified;Diseases Of The Musculoskeletal System And Connective Tissue
+GROUP285;60;4928;0.0121753246753247;NA;Diseases Of The Blood And Blood Forming Organs
+TIPO7291;61;4927;0.012380759082606;Myalgia and myositis, unspecified;Diseases Of The Musculoskeletal System And Connective Tissue
+TIPO5533;62;4926;0.0125862768980918;Diaphragmatic hernia without mention of obstruction or gangrene;Diseases Of The Digestive System
+GROUP553;64;4924;0.0129975629569456;NA;Diseases Of The Digestive System
+TIPO5379;66;4922;0.0134091832588379;Unspecified disorder of stomach and duodenum;Diseases Of The Digestive System
+GROUP715;69;4919;0.0140272413092092;Osteoarthrosis involving, or with mention of more than one site, but not specified as generalized, multiple sites.  Osteoarthrosis, generalized, site unspecified. Osteoarthrosis, localized, primary, lower leg. Osteoarthrosis, unspecified whether generalized or localized, site unspecified.;Diseases Of The Musculoskeletal System And Connective Tissue
+TIPO2469;75;4988;0.0150360866078589;Unspecified disorder of thyroid;Endocrine, Nutritional And Metabolic Diseases, And Immunity Disorders
+TIPO78052;109;4879;0.022340643574503;Insomnia, unspecified;Symptoms, Signs, And Ill Defined Conditions
+TIPO2449;119;4869;0.02444033682481;Unspecified acquired hypothyroidism;Endocrine, Nutritional And Metabolic Diseases, And Immunity Disorders
+TIPO30000;125;4863;0.0257042977585852;Anxiety state, unspecified;Mental Disorders
+TIPO71690;145;4843;0.029940119760479;Arthropathy, unspecified, site unspecified;Diseases Of The Musculoskeletal System And Connective Tissue
+GROUP716;146;4842;0.030152829409335;Arthropathy, unspecified, shoulder region. Arthropathy, unspecified, site unspecified;Diseases Of The Musculoskeletal System And Connective Tissue
+TIPO5690;146;4842;0.030152829409335;Anal and rectal polyp;Diseases Of The Digestive System
+GROUP300;150;4838;0.0310045473336089;Phobia, unspecified. Social phobia.Obsessive-compulsive disorders.Anxiety state, unspecified;Mental Disorders
+TIPO73300;156;4832;0.0322847682119205;Osteoporosis, unspecified;Diseases Of The Musculoskeletal System And Connective Tissue
+TIPO04186;178;4810;0.037006237006237;Helicobacter pylori [H. pylori];Infectious And Parasitic Diseases
+TIPO6961;191;4797;0.039816552011674;Other psoriasis;Diseases Of The Skin And Subcutaneous Tissue
+GROUP246;212;4776;0.0443886097152429;Unspecified disorder of thyroid. Unspecified acquired hypothyroidism. Toxic diffuse goiter without mention of thyrotoxic crisis or storm. Postsurgical hypothyroidism. Thyrotoxicosis without mention of goiter or other cause, and without mention of thyrotoxic crisis or storm. ;Endocrine, Nutritional And Metabolic Diseases, And Immunity Disorders
+TIPO25000;217;4988;0.043504410585405;Diabetes mellitus without mention of complication, type II or unspecified type, not stated as uncontrolled;Endocrine, Nutritional And Metabolic Diseases, And Immunity Disorders
+TIPO6929;222;4766;0.0465799412505246;Contact dermatitis and other eczema, unspecified cause;Diseases Of The Skin And Subcutaneous Tissue
+TIPO49390;267;4721;0.0565558144460919;Asthma, unspecified type, unspecified;Diseases Of The Respiratory System
+TIPO311;370;4618;0.0801212646167172;Depressive disorder, not elsewhere classified;Mental Disorders
+TIPO4720;380;4608;0.0824652777777778;Chronic rhinitis;Diseases Of The Respiratory System
+GROUP311;390;4598;0.0848194867333623;Depressive disorder, not elsewhere classified. Dysthymic disorder.;Mental Disorders
+TIPO34690;429;4559;0.094099583241939;Migraine, unspecified, without mention of intractable migraine without mention of status migrainosus;Diseases Of The Nervous System And Sense Organs
+GROUP995;775;4213;0.18395442677427;Allergy, unspecified, not elsewhere classified;Injury And Poisoning
+TIPO9953;775;4213;0.18395442677427;Allergy, unspecified, not elsewhere classified;Injury And Poisoning
+TIPO4019;858;4130;0.20774818401937;Unspecified essential hypertension;Diseases Of The Circulatory System
+TIPO2720;982;4006;0.245132301547678;Pure hypercholesterolemia;Endocrine, Nutritional And Metabolic Diseases, And Immunity Disorders
+GROUP272;987;4001;0.246688327918021;Pure hypercholesterolemia. Acute gouty arthropathy;Endocrine, Nutritional And Metabolic Diseases, And Immunity Disorders
+;;;;;
