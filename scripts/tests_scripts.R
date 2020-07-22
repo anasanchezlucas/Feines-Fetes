@@ -1,4 +1,3 @@
-####################7/2/20###################
 ###########DADES GCAT#########################
 #Preparaci? de files pgen pvar psam
 #plink
@@ -111,8 +110,8 @@ exclude <- filter(pvar, INFO < 0.7 | maf < 0.01)
 #Safe the exclude file
 write.table(exclude, "/imppc/labs/dnalab/share/ana_test/output/gwas/exclude.txt", sep = "\t", row.names= F, quote = F)
 
-######################
-#PLINK
+###################### GWAS ANALYSIS#######################
+#########################PLINK############################ 
 #Taula
 #We first safe the directories we will need
 plink2=/imppc/labs/dnalab/nblaym/gwas/plink2
@@ -135,23 +134,14 @@ $plink2 --pfile $input --pheno-name TIPO041,TIPO242,TIPO244,TIPO246,TIPO250,TIPO
 #We make this analysis for the X chromosome as make it with all chromosomes together may lead to errors
 $plink2 --pfile $input --chr 23 --pheno-name TIPO041,TIPO242,TIPO244,TIPO246,TIPO250,TIPO268,TIPO272,TIPO274,TIPO275,TIPO280,TIPO285,TIPO296,TIPO300,TIPO311,TIPO346,TIPO365,TIPO401,TIPO427,TIPO432,TIPO459,TIPO472,TIPO493,TIPO496,TIPO530,TIPO536,TIPO537,TIPO553,TIPO558,TIPO564,TIPO569,TIPO600,TIPO602,TIPO626,TIPO627,TIPO692,TIPO696,TIPO704,TIPO710,TIPO715,TIPO716,TIPO719,TIPO722,TIPO724,TIPO728,TIPO729,TIPO733,TIPO780,TIPO784,TIPO788,TIPO799,TIPO995,TIPOC43,TIPOC44,TIPOC50,TIPOV25 --covar-name PC1, PC2, PC3, PC4, AGE --xchr-model 1  --ci 0.95 --glm firth  cols=chrom,pos,ref,alt,a1count,a1countcc,nobs,a1freq,a1freqcc,test,orbeta,se,ci,tz,p hide-covar --out $output2/gwas_x --threads 7
 
-####   R
-library(data.table)
-library(dplyr)
-library(ggplot2)
-library(qqman)
-library(xlsx)
-library(qqman)
-library(ggplot2)
-
 #uncompress the outputs
 TIPO041,TIPO242,TIPO244,TIPO246,TIPO250,TIPO268,TIPO272,TIPO274,TIPO275,TIPO280,TIPO285,TIPO296,TIPO300,TIPO311,TIPO346,TIPO365,TIPO401,TIPO427,TIPO432,TIPO459,TIPO472,TIPO493,TIPO496,TIPO530,TIPO536,TIPO537,TIPO553,TIPO558,TIPO564,TIPO569,TIPO600,TIPO602,TIPO626,TIPO627,TIPO692,TIPO696,TIPO704,TIPO710,TIPO715,TIPO716,TIPO719,TIPO722,TIPO724,TIPO728,TIPO729,TIPO733,TIPO780,TIPO784,TIPO788,TIPO799,TIPO995,TIPOC43,TIPOC44,TIPOC50,TIPOV25
 |gzip -c > gwas_all_$TIPO.glm.firth 
 
+#Check the output
 gwas <- fread("gwas.TIPO242.glm.firth")
 sum(is.na(gwas$P))
 grep "NA" gwas.TIPO242.glm.firth
-
 #8       115421653       8-115421653     GTT     G       G       0       0       0       0       0       0       ADD     4988    NA      NA      NA      NA      NA      NA
 #9       104764062       9-104764062     A       G       G       0       0       0       0       0       0       ADD     4988    NA      NA      NA      NA      NA      NA
 #15      75782973        15-75782973     C       G       G       0       0       0       0       0       0       ADD     4988    NA      NA      NA      NA      NA      NA
@@ -162,12 +152,8 @@ grep -v ^#CHROM $input | cut -f 1,2,4,5,20 > /imppc/labs/dnalab/share/ana_test/o
 #Add the columns as the header
 grep ^#CHROM gwas.TIPO041.glm.firth | cut -f 1,2,3,4,5,20 > header
 
-cat $gwas.TIPO $input1x > $output1
-
-696 728 729 733
-TIPO041 TIPO242 TIPO244 TIPO246 TIPO250 TIPO268 TIPO272 TIPO274 TIPO275 TIPO280 TIPO285 TIPO296 TIPO300 TIPO311 TIPO346 TIPO365 TIPO401 
-
 cd /imppc/labs/dnalab/share/ana_test/output/gwas
+
 #we are doing a for for all the diseases
 for TIPO in TIPO041,TIPO242,TIPO244,TIPO246,TIPO250,TIPO268,TIPO272,TIPO274,TIPO275,TIPO280,TIPO285,TIPO296,TIPO300,TIPO311,
 TIPO346,TIPO365,TIPO401,TIPO427,TIPO432,TIPO459,TIPO472,TIPO493,TIPO496,TIPO530,TIPO536,TIPO537,TIPO553,TIPO558,TIPO564,TIPO569,
@@ -202,3 +188,4 @@ cat gwas.TIPO472.glm.firth gwas_x.TIPO472.glm.firth > gwas_all_472.glm.firth
 
 #Results look good?
 awk 'NR==FNR{A[$1]++;next}$3' include.txt gwas.TIPO041.glm.firth | head #YES
+      
