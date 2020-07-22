@@ -266,10 +266,25 @@ rm TIPO57140.gz
 rm TIPO60000.gz
 
 # DPH6 gene analysis
+#Load GWAS output data of the trait                                            
 data <- fread("gwas.TIPO2749.glm.firth")
+#Filter by p-value                                             
 data_f <- filter(data, P < 1e-10)
+#how many snps fulfill the condition                                          
 dim(data_f) #30 snps
-write.table(data_f, "snps_DPH6.wcf", rownames = F, quote = F)
+#sort by p-value                                           
 data_s <- data_f %>% arrange(P)
-Ho pujem al VEP
+write.table(data_f, "snps_DPH6.wcf", rownames = F, quote = F)
+                                             
+#TIPO6961
+#Load GWAS output data of the trait                                            
+data2 <- fread("gwas.TIPO6961.glm.firth")
+#Filter by p-value                                             
+data_f2 <- filter(data2, P < 1e-10)
+#how many snps fulfill the condition                                          
+dim(data_f2) #24 snps
+#sort by p-value                                           
+data_s <- data_f %>% arrange(P)
+write.table(data_f, "snps_DPH6.wcf", rownames = F, quote = F)
+                                             
 
