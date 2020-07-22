@@ -1,24 +1,6 @@
-##MALALTIES
-'''
-Choosing the diseases
-30000+3004OK,  240-246 OK, 78052, 715TOTSOK, 7291, 5379OK, 553TOT, anemia preguntar (280,281,282,284), 722TOT, 600-602, C44, 27401+2749, 365TOT, C50, 530TOT, 2689OK, 73390+7399, 7871pensar, 
-
-9953+9951  4139 71690+71691 49390  5569  5559 311+3004OK 300TOTOK 25000OK  6929 496 29590 04186 571()  272(tot)  4019OK 43491 41090  7100 34690 73300  5690  6961  4720
-'''
-
-
 #######################################
 ###########DADES GCAT#########################
-#plink
-#Import all packages
-library(backports)
-library(tidyr)
-library(data.table)
-library(dplyr)
-library(ggplot2)
-library(reshape2)
-library(reshape)
-library(numpy)
+
 #set the working directory
 #Read dht neede files
 setwd("I:/RDecid/Ana_Sanchez/questionari_taules")
@@ -34,7 +16,7 @@ tot3 <- select(malalties_participants,entity_id, TIPO, TIPO3) %>% unique()
 
 #Create a file joining two files and use only the TIPO of 3 characters
 tipos_malalties <- data.frame(table(malalties$TIPO)) %>% `colnames<-`(c("TIPO", "N")) %>% 
-  left_join(malalties2, by ='TIPO') %>% mutate(TIPO3 = ifelse(startsWith(TIPO, "C"), TIPO, substr(TIPO,0,3))) 
+left_join(malalties2, by ='TIPO') %>% mutate(TIPO3 = ifelse(startsWith(TIPO, "C"), TIPO, substr(TIPO,0,3))) 
 
 #We have selected the diseases we are interested
 noms <- unique(c("04186","242","244","246", "25000", "2689","2720","2721","2724","2728", "27401","2749","280","281","282","283","284","29590", "30000","30001","30020","30022","30023", "3003","3004","30000","30004" ,"30004","311" ,"34690",  "36504","36513","3659" , "4019", "41090","4139","43491","4720","49390","496",  "5300","53010","53011","53013","5303","5305","53081","53085","5309"  ,"5690",  "57140","5715","5716","5718"  ,"5379",   "5531", "5533", "5539" ,"5559","5569",  "600","601","602" ,"6929","6961","7100",  "71500","71514","71516","71518","71589","71590" , "71690","71691" ,"7222","72252","7226" ,"7291","73300","73390","73399" ,"78052","7871","9953","9951" ,"C44","C50"))
@@ -57,7 +39,7 @@ consulta <- fread("consulta_nivell2.csv", na.strings = "NULL")
 
 #Create a file with          n
 cond_2 <- merge(malalties_participants, consulta %>% select(entity_id, GENOTYPED_SAMPLE), by = 'entity_id') %>% 
-  filter(!is.na(GENOTYPED_SAMPLE)) %>% select(-entity_id)
+filter(!is.na(GENOTYPED_SAMPLE)) %>% select(-entity_id)
 num_genotyped <- data.frame(cond_2$TIPO3) %>% group_by(cond_2$TIPO) %>% summarise(N = n()) %>% `colnames<-`(c('TIPO', 'N'))
 sans = filter(consulta, !entity_id %in% matriu$entity_id) #no malalties
 u
@@ -69,6 +51,7 @@ matriu_all <- rbind(matriu, matriu_sans)
 
 matriu_all <- cbind(matriu_all[1], data.frame(sapply(matriu_all[-1], as.numeric))) %>% group_by(entity_id) %>% summarise_all(sum)
 
+#make groups
 matriu_all_final <- merge(matriu_all, consulta %>% select(entity_id, GENOTYPED_SAMPLE), by = 'entity_id')%>% filter(!is.na(GENOTYPED_SAMPLE)) %>% select(-entity_id) %>% 
   mutate(GROUP246 = ifelse(TIPO2449 + TIPO24200 + TIPO2440 + TIPO24290 + TIPO2462 + TIPO2469 + TIPO24210 > 0, 1, 0),
          GROUP272 = ifelse(TIPO2720 + TIPO2721 + TIPO2724 + TIPO2728 > 0, 1, 0),
@@ -87,37 +70,30 @@ matriu_all_final <- merge(matriu_all, consulta %>% select(entity_id, GENOTYPED_S
          GROUP73399 = ifelse(TIPO73390 + TIPO73399 > 0, 1, 0),
          GROUP995 = ifelse(TIPO9953 + TIPO9951 > 0, 1, 0))
 
-
-
+#Create a matrix
 matriu1 = as.matrix(matriu_all_final[-95]+1)
+#Add an extra column for the IID
 IID = matriu_all_final[95]
+#join the two matrices
 matriu_ultima <- cbind(IID, matriu1)
-plot(tipos_malalties$N,tipos_malalties$TIPO)
-tipos_QC <- filter(tipos_malalties, N >20)
-tipos_QC <- filter(tipos_QC, TIPO3 %in% consulta$TIPO3)
-# for(TIPO in noms){
-#   l=""
-#   i <- 1
-#   while(i< 55) {
-#     l[[i]] <- sum(matriu_all_final$TIPO)
-#     i <- i + 1
-#   }
-# }
-
+ 
 
 ############################
-#7/2/20 Terminal: Juntar psam amb matriu_final.
+#Terminal: Join psam with the matriu_final
 
-#Primer hem de canviar nom entity_id -> IID del matriu final
+#Primer hem de canviar nom entity_id -> IID del matriu_ultima
+#First we have to change the name entity_id by --> IID from matriu_ultima
 require(reshape)
 matriu_all <- fread("matriu_ultima.txt", na.strings = "NULL")
+#Change the name
 matriu_all_IID <- rename(matriu_all, c("GENOTYPED_SAMPLE"="IID"))
+#Save the table
 write.table(matriu_all_IID, "matriu_all_IDD.txt", sep = " ", row.names= F, quote = F)
 
-#Treure files del psam de Total_Cholesterol i ICD_272
+#Take off the rows from psam
 cut -d " " -f 1,2,3,4,5,6,7,8,9 GCAT_imputed.psam > GCAT_imputed_nochol.psam
 
-#Fer Merge de matriu_final i .psam per IID i quedar-me amb les columnes que vulgui.
+#Do Merge from matriu_final and psam by IID.
 #R
 GCAT_imputed_nochol <- fread("GCAT_imputed_nochol.psam", na.strings = "NULL")
 GCAT_imputed_IID <- left_join(GCAT__imputed_nochol, matriu_all_IID)
@@ -125,7 +101,6 @@ write.table(GCAT_imputed_IID, "GCAT_imputed_IID.psam", sep = " ", row.names= F, 
 ####################
 
 apply(GCAT_imputed_IID[,10:64],2,function(x)table(x))
-
 
 #Make a file with the variants don't pass the filter
 exclude <- filter(pvar, INFO < 0.7)
@@ -147,9 +122,9 @@ cd $output
 #Take out the IDs that doesn't pass the filter
 $plink2 --pfile $input --exclude $exclude --make-pgen --out GCAT_imputed_QC --threads 7
 
-
-names_pheno = paste(colnames(matriu_ultima)[-1],collapse = ",") #traits that have passed the filter
-
+names_pheno = paste(colnames(matriu_ultima)[-1],collapse = ",") 
+      
+#traits that have passed the filter
 "TIPO04186,TIPO24200,TIPO24210,TIPO24290,TIPO2440,TIPO2449,TIPO2462,TIPO2469,TIPO25000,TIPO2689,TIPO2720,TIPO2721,TIPO2724,TIPO2728,TIPO27401,
 TIPO2749,TIPO2800,TIPO2809,TIPO2812,TIPO2820,TIPO2822,TIPO28240,TIPO28245,TIPO28246,TIPO28409,TIPO29590,TIPO30000,TIPO30001,TIPO30020,TIPO30022,
 TIPO30023,TIPO3003,TIPO3004,TIPO311,TIPO34690,TIPO36504,TIPO36513,TIPO3659,TIPO4019,TIPO41090,TIPO4139,TIPO43491,TIPO4720,TIPO49390,TIPO496,TIPO5300,
@@ -167,14 +142,6 @@ $plink2 --pfile $input --pheno-name TIPO6029 TIPO6929 TIPO6961 TIPO71590 TIPO716
 #then for chr X
 $plink2 --pfile $input --chr 23 --pheno-name TIPO041,TIPO242,TIPO244,TIPO246,TIPO250,TIPO268,TIPO272,TIPO274,TIPO275,TIPO280,TIPO285,TIPO296,TIPO300,TIPO311,TIPO346,TIPO365,TIPO401,TIPO427,TIPO432,TIPO459,TIPO472,TIPO493,TIPO496,TIPO530,TIPO536,TIPO537,TIPO553,TIPO558,TIPO564,TIPO569,TIPO600,TIPO602,TIPO626,TIPO627,TIPO692,TIPO696,TIPO704,TIPO710,TIPO715,TIPO716,TIPO719,TIPO722,TIPO724,TIPO728,TIPO729,TIPO733,TIPO780,TIPO784,TIPO788,TIPO799,TIPO995,TIPOC43,TIPOC44,TIPOC50,TIPOV25 --covar-name PC1, PC2, PC3, PC4, AGE --xchr-model 1  --ci 0.95 --glm firth  cols=chrom,pos,ref,alt,a1count,a1countcc,nobs,a1freq,a1freqcc,test,orbeta,se,ci,tz,p hide-covar --out $output2/gwas_x --threads 7
 
-####10-2   R
-library(data.table)
-library(dplyr)
-library(ggplot2)
-library(qqman)
-library(xlsx)
-library(qqman)
-library(ggplot2)
 
 #unzip the output files
 TIPO041,TIPO242,TIPO244,TIPO246,TIPO250,TIPO268,TIPO272,TIPO274,TIPO275,TIPO280,TIPO285,TIPO296,TIPO300,TIPO311,TIPO346,TIPO365,TIPO401,TIPO427,TIPO432,TIPO459,TIPO472,TIPO493,TIPO496,TIPO530,TIPO536,TIPO537,TIPO553,TIPO558,TIPO564,TIPO569,TIPO600,TIPO602,TIPO626,TIPO627,TIPO692,TIPO696,TIPO704,TIPO710,TIPO715,TIPO716,TIPO719,TIPO722,TIPO724,TIPO728,TIPO729,TIPO733,TIPO780,TIPO784,TIPO788,TIPO799,TIPO995,TIPOC43,TIPOC44,TIPOC50,TIPOV25
@@ -189,8 +156,7 @@ grep ^#CHROM gwas.TIPO041.glm.firth | cut -f 1,2,3,4,5,20 > header
 
 
 
-#Ajuntem el output dels 22 chromosomes amb el del chromo X
-
+#Join the outputs of the 22 chromosomes with the one from X
 # go to the directory
 cd /imppc/labs/dnalab/share/ana_test/output2/gwas
 #for all traits
